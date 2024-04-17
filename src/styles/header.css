@@ -1,0 +1,8 @@
+.header-container{
+    background-color: rgb(49, 16, 81);
+    padding: 10px;
+}
+.header-container h1{
+    color: #fff;
+    text-align: center;
+}

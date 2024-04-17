@@ -1,0 +1,37 @@
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 100px auto;
+    justify-content: center;
+    background-color: rgb(47, 17, 74);
+    padding: 10px;
+    width: 900px;
+    border-radius: 10px;
+}
+.child form{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+form input{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #fff;
+    background-color: rgb(47, 17, 74);
+    border: none;
+    box-shadow: 0 0 2px grey;
+}
+form input:focus{
+    outline: none;
+}
+form button{
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(12, 162, 12);
+    color: #fff;
+    cursor: pointer;
+}

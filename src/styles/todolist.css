@@ -1,0 +1,39 @@
+.todolist-container{
+    display: flex;
+    box-shadow: 0 0 2px grey;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.todolist-container p{
+    font-size: 20px;
+    color: #fff;
+}
+.todolist-container button{
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(232, 27, 27);
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+.todolist-container button:active{
+    background-color: #fff;
+    color: #000;
+}
+.check-icon-container {
+    cursor: pointer;
+}
+.checked{
+    background-color: green;
+    border-radius: 50%;
+    padding: 10px;
+}
+.check-icon-container i{
+    color: #fff;
+    font-size: 22px;
+}
+
+

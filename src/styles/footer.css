@@ -1,0 +1,13 @@
+.footer-container{
+    background-color: rgb(49, 16, 81);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-container h2{
+    color: #fff;
+}
