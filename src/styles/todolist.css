@@ -24,6 +24,8 @@
     color: #000;
 }
 .check-icon-container {
+     position: absolute;
+     right: 50%;
     cursor: pointer;
 }
 .checked{
